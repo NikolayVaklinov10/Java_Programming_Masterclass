@@ -70,6 +70,7 @@ public class Main {
 
 
 
+
     public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
 
 
