@@ -10,6 +10,9 @@ public class Main {
         }
         long hours = minutes / 60;
         long remainingMinutes = minutes % 60;
+
+        String hoursString = hours + "h";
+
         return hours + "h " + remainingMinutes + "m " + seconds + "s ";
     }
 
