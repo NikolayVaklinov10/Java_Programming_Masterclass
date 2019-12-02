@@ -1,0 +1,29 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+    }
+
+    public static int getLargestPrime (int number) {
+        if (number < 2) {
+            return -1;
+        }
+
+        boolean isPrime = false;
+        while (!isPrime) {
+            isPrime = true;
+            for (int i = 2; i < number/2+1; i++) {
+                if (number % i != 0) {
+                    continue;
+                }
+                number /= i;
+                isPrime = false;
+                break;
+            }
+        }
+
+        return number;
+    }
+}
