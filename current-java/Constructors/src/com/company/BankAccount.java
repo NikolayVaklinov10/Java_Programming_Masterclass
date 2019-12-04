@@ -8,6 +8,23 @@ public class BankAccount {
     private double balance;
     private String customerName;
     private String customerEmailAddress;
+    private String customerPhoneNumber;
+
+    public BankAccount(){
+        this("56789", 2.50, "Default name", "Default address", "default phone");
+        System.out.println("Empty constructor called");
+    }
+
+    public BankAccount(String number, double balance, String customerName, String customerEmailAddress,
+                       String customerPhoneNumber){
+        System.out.println("BankAccount constructor with parameters called");
+        this.number = number;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.customerEmailAddress = customerEmailAddress;
+        this.customerPhoneNumber = customerPhoneNumber;
+    }
+
 
     public void deposit(double depositAmount){
         this.balance += depositAmount;
@@ -57,14 +74,14 @@ public class BankAccount {
     }
 
     public String getCustomerPhoneNumber() {
-        return CustomerPhoneNumber;
+        return customerPhoneNumber;
     }
 
     public void setCustomerPhoneNumber(String customerPhoneNumber) {
-        CustomerPhoneNumber = customerPhoneNumber;
+        this.customerPhoneNumber = customerPhoneNumber;
     }
 
-    private String CustomerPhoneNumber;
+
 
 
 

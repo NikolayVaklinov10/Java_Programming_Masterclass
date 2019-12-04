@@ -16,12 +16,11 @@ public class Main {
         // class (the one created by IntelliJ) to confirm your code is working.
         // Add some System.out.println's in the two methods above as well.
 
-        BankAccount nicksAccount = new BankAccount();
-        nicksAccount.setNumber("12345");
-        nicksAccount.setBalance(0.00);
-        nicksAccount.setCustomerName("Nick Vaklinov");
-        nicksAccount.setCustomerEmailAddress("myemail@nick.com");
-        nicksAccount.setCustomerPhoneNumber("(078) 321-7654");
+        BankAccount nicksAccount = new BankAccount();//("12345",0.00,"Nick Vaklinov","myemail@nick.com","(087) 123-4567");
+
+        System.out.println(nicksAccount.getNumber());
+        System.out.println(nicksAccount.getBalance());
+
         nicksAccount.withdrawal(100.0);
 
 
