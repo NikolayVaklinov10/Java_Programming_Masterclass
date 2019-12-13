@@ -9,5 +9,11 @@ public class Main {
         nicksPhone.powerOn();
         nicksPhone.callPhone(1233456);
         nicksPhone.answer();
+
+
+        nicksPhone = new MobilePhone(24565);
+        nicksPhone.powerOn();
+        nicksPhone.callPhone(24565);
+        nicksPhone.answer();
     }
 }
