@@ -24,25 +24,6 @@
       <change afterPath="$PROJECT_DIR$/../CharAndBoolean/CharAndBoolean.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ComplexOperations/ComplexOperations.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Composition/Composition.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/azureSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_swt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controls.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jlfgr-1_0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/sample.fxml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Cylinder/Cylinder.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../DecimalComparator/DecimalComparator.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../DigitSumChallenge/DigitSumChallenge.iml" afterDir="false" />
@@ -180,6 +161,8 @@
       <change afterPath="$PROJECT_DIR$/../sortedCollections/sortedCollections.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Banking/src/com/company/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Banking/src/com/company/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ByteShortIntLong/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ByteShortIntLong/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FloatAndDouble/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FloatAndDouble/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GenericsPart2/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericsPart2/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Layouts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Layouts/.idea/workspace.xml" afterDir="false" />
@@ -398,8 +381,16 @@
       <option name="presentableId" value="Default" />
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
-      <workItem from="1577209234536" duration="2494000" />
+      <workItem from="1577209234536" duration="3451000" />
     </task>
+    <task id="LOCAL-00001" summary="controls commit">
+      <created>1577218307892</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577218307892</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,6 +399,8 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="controls commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="controls commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="420" y="97" width="1020" height="669" key="#Project_Structure" timestamp="1577211043013">
@@ -416,6 +409,10 @@
     <state x="420" y="96" width="1020" height="669" key="#Project_Structure/0.23.1440.814@0.23.1440.814" timestamp="1577210822363" />
     <state x="640" y="96" key="#Project_Structure/0.23.1440.816@0.23.1440.816" timestamp="1577209320020" />
     <state x="420" y="97" key="#Project_Structure/0.23.1440.821@0.23.1440.821" timestamp="1577211043013" />
+    <state x="407" y="32" key="CommitChangelistDialog2" timestamp="1577218307272">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="407" y="32" key="CommitChangelistDialog2/0.23.1440.821@0.23.1440.821" timestamp="1577218307272" />
     <state width="716" height="209" key="GridCell.Tab.0.bottom" timestamp="1577211700780">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
@@ -440,5 +437,9 @@
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="746" y="277" key="NewModule_or_Project.wizard/0.23.1440.814@0.23.1440.814" timestamp="1577210502447" />
+    <state x="640" y="170" key="Vcs.Push.Dialog.v2" timestamp="1577218315622">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="640" y="170" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1577218315622" />
   </component>
 </project>
