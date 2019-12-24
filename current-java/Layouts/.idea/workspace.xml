@@ -64,24 +64,6 @@
       <change afterPath="$PROJECT_DIR$/../KeywordsAndExpressions/KeywordsAndExpressions.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LargestPrime/LargestPrime.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LastDigitChecker/LastDigitChecker.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/azureSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_swt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Layouts.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/sample.fxml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LeapYearCalculator/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LeapYearCalculator/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LeapYearCalculator/.idea/modules.xml" afterDir="false" />
@@ -181,6 +163,8 @@
       <change beforePath="$PROJECT_DIR$/../ByteShortIntLong/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ByteShortIntLong/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FloatAndDouble/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FloatAndDouble/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GenericsPart2/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GenericsPart2/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -396,8 +380,16 @@
       <option name="presentableId" value="Default" />
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
-      <workItem from="1577199298037" duration="1406000" />
+      <workItem from="1577199298037" duration="2534000" />
     </task>
+    <task id="LOCAL-00001" summary="GridPane Layout commit">
+      <created>1577201253559</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577201253562</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,31 +398,41 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="GridPane Layout commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="GridPane Layout commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="96" key="#Project_Structure" timestamp="1577200006875">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="320" y="96" key="#Project_Structure/0.23.1440.816@0.23.1440.816" timestamp="1577200006875" />
-    <state x="413" y="33" key="CommitChangelistDialog2" timestamp="1577201189527">
+    <state x="413" y="33" key="CommitChangelistDialog2" timestamp="1577201252731">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
-    <state x="413" y="33" key="CommitChangelistDialog2/0.23.1440.816@0.23.1440.816" timestamp="1577201189527" />
-    <state width="669" height="209" key="GridCell.Tab.0.bottom" timestamp="1577201140992">
+    <state x="413" y="33" key="CommitChangelistDialog2/0.23.1440.816@0.23.1440.816" timestamp="1577201252731" />
+    <state width="669" height="209" key="GridCell.Tab.0.bottom" timestamp="1577203126042">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
-    <state width="669" height="209" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1577201140992" />
-    <state width="669" height="209" key="GridCell.Tab.0.center" timestamp="1577201140987">
+    <state width="669" height="209" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1577203126042" />
+    <state width="669" height="209" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1577202743650" />
+    <state width="669" height="209" key="GridCell.Tab.0.center" timestamp="1577203126039">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
-    <state width="669" height="209" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1577201140987" />
-    <state width="669" height="209" key="GridCell.Tab.0.left" timestamp="1577201140985">
+    <state width="669" height="209" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1577203126039" />
+    <state width="669" height="209" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1577202743648" />
+    <state width="669" height="209" key="GridCell.Tab.0.left" timestamp="1577203126037">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
-    <state width="669" height="209" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1577201140985" />
-    <state width="669" height="209" key="GridCell.Tab.0.right" timestamp="1577201140990">
+    <state width="669" height="209" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1577203126037" />
+    <state width="669" height="209" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1577202743646" />
+    <state width="669" height="209" key="GridCell.Tab.0.right" timestamp="1577203126041">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
-    <state width="669" height="209" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1577201140990" />
+    <state width="669" height="209" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1577203126041" />
+    <state width="669" height="209" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1577202743649" />
+    <state x="640" y="170" key="Vcs.Push.Dialog.v2" timestamp="1577201268774">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="640" y="170" key="Vcs.Push.Dialog.v2/0.23.1440.816@0.23.1440.816" timestamp="1577201268774" />
   </component>
 </project>
