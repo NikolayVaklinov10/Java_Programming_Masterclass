@@ -13,6 +13,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Iterator;
 import java.util.List;
 
+
 public class TodoData {
     private static TodoData instance = new TodoData();
     private static String filename = "TodoListItems.txt";
@@ -20,11 +21,11 @@ public class TodoData {
     private List<TodoItem> todoItems;
     private DateTimeFormatter formatter;
 
-    public static TodoData getInstance(){
+    public static TodoData getInstance() {
         return instance;
     }
 
-    private TodoData(){
+    private TodoData() {
         formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
     }
 
@@ -32,10 +33,10 @@ public class TodoData {
         return todoItems;
     }
 
-    public void setTodoItems(List<TodoItem> todoItems) {
-        this.todoItems = todoItems;
-    }
-
+    //    public void setTodoItems(List<TodoItem> todoItems) {
+//        this.todoItems = todoItems;
+//    }
+//
     public void loadTodoItems() throws IOException {
 
         todoItems = FXCollections.observableArrayList();
@@ -72,7 +73,7 @@ public class TodoData {
             Iterator<TodoItem> iter = todoItems.iterator();
             while(iter.hasNext()) {
                 TodoItem item = iter.next();
-                bw.write(String.format("%s\t%S\t%s",
+                bw.write(String.format("%s\t%s\t%s",
                         item.getShortDescription(),
                         item.getDetails(),
                         item.getDeadline().format(formatter)));
@@ -84,6 +85,13 @@ public class TodoData {
                 bw.close();
             }
         }
+
+
+
+
+
+
+
 
     }
 }
