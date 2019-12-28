@@ -9,7 +9,9 @@ import javafx.scene.control.TextField;
 
 import java.time.LocalDate;
 
+
 public class DialogController {
+
     @FXML
     private TextField shortDescriptionField;
 
@@ -19,12 +21,14 @@ public class DialogController {
     @FXML
     private DatePicker deadlinePicker;
 
-    public void processResults() {
+    public TodoItem processResults() {
         String shortDescription = shortDescriptionField.getText().trim();
         String details = detailsArea.getText().trim();
         LocalDate deadlineValue = deadlinePicker.getValue();
 
-        TodoData.getInstance().addTodoItem(new TodoItem(shortDescription, details, deadlineValue));
+        TodoItem newItem = new TodoItem(shortDescription, details, deadlineValue);
+        TodoData.getInstance().addTodoItem(newItem);
+        return newItem;
     }
-
 }
+
