@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Main {
     private static Locations locations = new Locations();
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         // Change the program to allow players to type full words, or phrases, then move to the
         // correct location based upon their input.
         // The player should be able to type commands such as "Go West", "run South", or just "East"
@@ -29,15 +29,16 @@ public class Main {
         vocabulary.put("EAST", "E");
 
 
-        Location currentLocation = locations.getLocation(1);
+        int loc = 64;
+//        int loc = 1;
         while(true) {
-            System.out.println(currentLocation.getDescription());
+            System.out.println(locations.get(loc).getDescription());
 
-            if(currentLocation.getLocationID() == 0) {
+            if(loc == 0) {
                 break;
             }
 
-            Map<String, Integer> exits = currentLocation.getExits();
+            Map<String, Integer> exits = locations.get(loc).getExits();
             System.out.print("Available exits are ");
             for(String exit: exits.keySet()) {
                 System.out.print(exit + ", ");
@@ -56,14 +57,12 @@ public class Main {
             }
 
             if(exits.containsKey(direction)) {
-                currentLocation = locations.getLocation(currentLocation.getExits().get(direction));
+                loc = exits.get(direction);
 
             } else {
                 System.out.println("You cannot go in that direction");
             }
         }
-
-        locations.close();
 
     }
 }
