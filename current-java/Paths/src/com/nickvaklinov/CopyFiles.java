@@ -8,6 +8,7 @@ import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
 
 public class CopyFiles extends SimpleFileVisitor<Path> {
+
     private Path sourceRoot;
     private Path targetRoot;
 
