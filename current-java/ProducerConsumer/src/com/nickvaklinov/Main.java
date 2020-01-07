@@ -5,9 +5,11 @@ import jdk.internal.dynalink.linker.LinkerServices;
 import java.util.List;
 import java.util.Random;
 
-import static jdk.nashorn.internal.parser.TokenType.EOF;
+import static com.nickvaklinov.Main.EOF;
+
 
 public class Main {
+    public static final String EOF = "EOF";
 
     public static void main(String[] args) {
 	// write your code here
