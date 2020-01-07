@@ -40,15 +40,18 @@ class MyProducer implements Runnable{
         for(String num: nums) {
             try {
                 System.out.println(color + "Adding..." + num);
-                buffer.add(num);
-
+                synchronized (buffer) {
+                    buffer.add(num);
+                }
                 Thread.sleep(random.nextInt(1000));
             } catch(InterruptedException e) {
                 System.out.println("Producer was interrupted");
             }
         }
         System.out.println(color + "Adding EOF and exiting....");
-        buffer.add("EOF");
+        synchronized (buffer) {
+            buffer.add("EOF");
+        }
     }
 }
 
@@ -63,8 +66,10 @@ class MyConsumer implements Runnable {
 
     public void run() {
         while(true) {
-            if(buffer.isEmpty()) {
-                continue;
+            synchronized (buffer) {
+                if (buffer.isEmpty()) {
+                    continue;
+                }
             }
             if(buffer.get(0).equals(EOF)) {
                 System.out.println(color + "Exiting");
